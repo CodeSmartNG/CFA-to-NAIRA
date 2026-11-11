@@ -1,8 +1,10 @@
 {
   "type": "module",
-  "scripts": { "dev": "node --watch src/server.js", "start": "node src/server.js" },
-   "start": "node src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
     "seed:admin": "node scripts/seedAdmin.js"
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
